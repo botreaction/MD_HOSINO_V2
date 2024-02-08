@@ -365,7 +365,53 @@ if (!('autolevelup' in user)) user.autolevelup = false
 if (!isNumber(user.pc)) user.pc = 0
 if (!user.grade) user.grade = 'Newbie'
 
+} else {
+global.db.data.users[m.sender] = {
+name: pushname,
+id: senderNumber,
+date: calender,
+exp: 100,
+level: 1,
+hit: 0,
+balance: 1000,
+limit: 30,
+glimit: 30,
+serial: makeid(4).toUpperCase(),
+lastclaim: 0,
+afk: -1,
+pc: 0,
+grade: 'Newbie',
+autolevelup: false 
 }
+
+  
+let me = m.sender
+let anu = "https://telegra.ph/file/33d58a3a7b931d3902642.jpg";
+
+    let contextInfo = {
+      externalAdReply: {
+        showAdAttribution: false,
+        title: "Saved to database",
+        mediaType: 1,
+        renderLargerThumbnail: true,
+        thumbnailUrl: anu,
+      },
+    };
+let teks =`*]───── REGISTERED ─────[*
+ 
+👤 Nama: ${pushname}
+☎️ Nomer: ${senderNumber}
+📡 Serial: ${db.data.users[m.sender].serial}
+📍 Verified: ${calender}
+💸 Saldo: Rp 1000
+⚜️ Grade: Newbie
+🥇 Rank : 
+🌀 Level : 1
+ `
+  await sleep(1000)
+ehz.sendMessage(m.chat,{contextInfo, text:teks},{quoted:m})
+                                                                              }
+}   
 
 
   //Auto Hit 
