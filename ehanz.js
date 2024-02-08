@@ -345,7 +345,7 @@ const vid = { url : `wa.me/6289688206739`, type : "video/mp4" }
                 
            
             
- //if(selectedText == "register"){
+ //if(selectedText == "registerrr"){
 if(isCmd){
 if (user) {
 if (!('name' in user)) user.name = pushname
