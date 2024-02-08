@@ -1226,7 +1226,7 @@ case 'menu': {
 if (!isGroup) return onlyGroup()
  let yui = fs.readFileSync('./temp/audio/angel.mp3')
 let niu = [
-"https://telegra.ph/file/94f07af0fd1b59e5a202d.jpg" ]
+"https://telegra.ph/file/3d24c53bff38cb83fe2c4.jpg" ]
 const menunya = `
 ╭୧──────────┈◦•◦
 │✼ *Nomor :* ${sender.split("@")[0]}
