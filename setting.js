@@ -3,26 +3,26 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.nomerOwner ="6281316643491"
-global.nomerOwner2 = "6281316643491"
-global.ownerName = "єнanz"
-global.namabot = "© Hoshino Botz"
-global.botName = "© нσѕнιησ вσт ν2"
-global.autoJoin = true
+global.nomerOwner ="6289688206739"
+global.nomerOwner2 = "6289688206739"
+global.ownerName = "W I L Y"
+global.namabot = "© Moen Botz"
+global.botName = "© Moen Bot ν2"
+global.autoJoin = false
 global.sessionName = 'session' //hati hati nanti error
-global.packName = "нσѕнιησ вσт"
-global.authorName = "Created By єнanz"
+global.packName = "Moen botz"
+global.authorName = "Created By Wily"
 global.namastore = "Rangel Store"
-global.nodana = "081316643491"
+global.nodana = "6289688206739"
 global.nogopay = "-"
 global.noovo = "-"
 global.qris = "-"
-global.TextT = `Rangel°᭄ᴮᵒᵗ` //
-global.textT = `Rangel°᭄ᴮᵒᵗ` // 
+global.TextT = `Moen°᭄ᴮᵒᵗ` //
+global.textT = `Moen°᭄ᴮᵒᵗ` // 
 
-global.sgc = 'https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS'
+global.sgc = 'https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw'
 global.syt = ''
-global.sig = 'https://instagram.com/ehanzdhoanx'
+global.sig = 'https://wa.me/6289688206739'
 const mess = {
 wait: '```⏳Sedang Di Proses Mohon Di Tunggu…```',
 query: 'Masukan query 🔍',

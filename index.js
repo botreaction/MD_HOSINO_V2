@@ -104,7 +104,7 @@ auth: state,
 browser: ['Chrome (Linux)', '', '']
 });
 if(usePairingCode && !ehz.authState.creds.registered) {
-		const phoneNumber = await question('MASUKKAN NOMOR DENGAN AWALAN 62 UNTUK MENDAPATKAN PAIRING CODE || SC BY EHANZ\n');
+		const phoneNumber = await question('MASUKKAN NOMOR DENGAN AWALAN 62 UNTUK MENDAPATKAN PAIRING CODE || SC BY WILY\n');
 		const code = await ehz.requestPairingCode(phoneNumber.trim())
 		console.log(`Pairing code: ${code}`)
 
@@ -216,7 +216,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
                         }
@@ -233,7 +233,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
                         }
@@ -250,7 +250,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
                         }
@@ -267,7 +267,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
                         }
@@ -284,7 +284,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true }}} );
   } else { 
@@ -297,7 +297,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppgroup,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true 
 } } });
@@ -332,7 +332,7 @@ body: 'Jangan Lupa Ikuti Rules Nya Ye',
 //description: 'Patuhi Deskriptif Yak',
 mediaType: 1,
 thumbnailUrl: ppuser,
-sourceUrl: "https://instagram.com/ehanzdhoanx",
+sourceUrl: "https://wa.me/6289688206739",
 renderLargerThumbnail: true
 }
 }
@@ -348,7 +348,7 @@ body: 'Balik Lagi Bawa Gorengan Yekk',
 //description: 'Patuhi Deskriptif Yak',
 mediaType: 1,
 thumbnailUrl: ppuser,
-sourceUrl: "https://instagram.com/ehanzdhoanx",
+sourceUrl: "https://wa.me/6289688206739",
 renderLargerThumbnail: true
 }
 }
@@ -363,7 +363,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppuser,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
     }}})
@@ -376,7 +376,7 @@ externalAdReply: {
 title: `${botName}`,
 body: `${ownerName}`,
 thumbnailUrl: ppuser,
-sourceUrl: "https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS",
+sourceUrl: "https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw",
 mediaType: 1,
 renderLargerThumbnail: true
     }}})
@@ -422,7 +422,7 @@ vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ehz.getName(i + '@s.whatsapp.net')}\
 ehz.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })}
 //=================================================//
 //Kalau Mau Self Lu Buat Jadi false
-ehz.public = true
+ehz.public = false
 //=================================================//
 //=================================================//
  // kredensial diperbarui -- simpan
@@ -459,8 +459,8 @@ ehz.sendTextWithMentions = async (jid, text, quoted, options = {}) => ehz.sendMe
    ehz.sendImageAsSticker = async (jid, media, m, options = {}) => {
     let { Sticker, StickerTypes } = require('wa-sticker-formatter')
     let jancok = new Sticker(media, {
-        pack:"Rangel°᭄ᴮᵒᵗ", // The pack name
-        author:"Created By єнanz",// The author name
+        pack:"Moene°᭄ᴮᵒᵗ", // The pack name
+        author:"Created By Wily",// The author name
         type: StickerTypes.FULL, // The sticker type
         categories: ['🤩', '🎉'], // The sticker category
         id: '12345', // The sticker id
@@ -471,8 +471,8 @@ ehz.sendTextWithMentions = async (jid, text, quoted, options = {}) => ehz.sendMe
     let nono = await jancok.toFile(stok)
     let nah = fs.readFileSync(nono)
    await ehz.sendMessage(jid, { contextInfo: { externalAdReply: { showAdAttribution: true,
-  title:"Rangel°᭄ᴮᵒᵗ",body: `${textT}`,previewType:"PHOTO",thumbnail: fs.readFileSync('./media/thumb.jpeg'),
-  sourceUrl:'https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS'																																
+  title:"Moene°᭄ᴮᵒᵗ",body: `${textT}`,previewType:"PHOTO",thumbnail: fs.readFileSync('./media/thumb.jpeg'),
+  sourceUrl:'https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw'																																
   }}, sticker: nah }, { quoted:m})   				
   return await fs.unlinkSync(stok)
   }

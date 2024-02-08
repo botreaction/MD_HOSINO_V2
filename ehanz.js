@@ -2,7 +2,7 @@
 //NOTE : SCRIP INI GRATIS UNTUK SEMUA ORANG
 //ADA YANG JUAL SCRIPT INI NERAKA MENUNGGUMU🔥🔥
 //SCRIPT INI MASIH ERROR BELUM SEMPURNA
-//ERROR KUNJUNGI GROUP ( https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS )
+//ERROR KUNJUNGI GROUP ( https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw )
 //CUMA BISA COPAS OM😓
 //HUBUNGI 6281316643491 JIKA ADA ORANG YANG JUAL SCRIPT INI💢💭
 
@@ -233,7 +233,7 @@ if (isGroup && isCmd ) console.log(color("[CMD]", "blue"), color(moment.tz('Asia
 const newReply = async(teks) =>{ 
 ehz.sendMessage(m.chat, {
 	document: fs.readFileSync("./package.json"),
-	fileName: 'Rangel°᭄ᴮᵒᵗ',
+	fileName: 'Moene°᭄ᴮᵒᵗ',
 	mimetype: 'application.pdf',
 	fileLength: 99999999999999,
 	bpageCount: 10909143,	
@@ -243,7 +243,7 @@ forwardingScore: 9999999,
 isForwarded: true, 
       externalAdReply: {
 	showAdAttribution: false,
-	title: 'Rangel°᭄ᴮᵒᵗ © By єнz',
+	title: 'Moene°᭄ᴮᵒᵗ © By Wily',
 	body: `${ucapanWaktu} kak ${pushname}`,
 	previewType:"PHOTO",
 	//caption: `oke Tunggu Bentar kak`,
@@ -262,11 +262,11 @@ contextInfo: {
 isForwarded: true, 
  externalAdReply: {
  showAdAttribution: true,
-  title: '© нσѕнιησ вσт ν2',
+  title: '© Moene Bot V2',
 body: `Hai  ${ucapanWaktu} kak ${pushname}`,
 previewType: "PHOTO",
  thumbnailUrl: photo,
- sourceUrl: 'https://replit.com/@ehanzdhoanx'
+ sourceUrl: 'https://wa.me/6289688206739'
    }
   },
  text: teks
@@ -341,7 +341,7 @@ console.log(err)
 }
 const its = await getBuffer (ppimg)
 const dfrply = await reSize(ppimg, 300, 300)
-const vid = { url : `wa.me/6281316643491`, type : "video/mp4" }         
+const vid = { url : `wa.me/6289688206739`, type : "video/mp4" }         
                 
            
             
@@ -674,7 +674,7 @@ background: '#FFFFFF00' // The sticker background color (only for full stickers)
 let stok = getRandom(".webp")
 let nono = await jancok.toFile(stok)
 let nah = fs.readFileSync(nono)
-await ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: 'Rangel°᭄ᴮᵒᵗ', mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: vid.url,sourceUrl: `${sgc}`																												
+await ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: 'Moene°᭄ᴮᵒᵗ', mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: vid.url,sourceUrl: `${sgc}`																												
 }}, sticker: nah }, { quoted: fkontak })   				
 await fs.unlinkSync(stok)
 }	
@@ -720,7 +720,7 @@ Fitur khusus private hanya diperbolehkan berikut ini
 ╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╯
 
 Akses Lebih Hanya Di Group
-https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS
+https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw
 `+readmore+`
 ┈ ⋞ 〈  A U T O - D O W N L O A D 〉 ⋟ ┈
 
@@ -1264,11 +1264,11 @@ caption: menunya,
 contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
-title: '© нσѕнιησ вσт ν2',
+title: '© Moene Bot V2',
 body: `Hai  ${ucapanWaktu} kak ${pushname}` ,
 thumbnail: fs.readFileSync('./media/thumb.jpeg'),
 thumbnailUrl:await pickRandom(niu),
-sourceUrl: 'https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS',
+sourceUrl: 'https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw',
 mediaType: 1,
 renderLargerThumbnail: true 
 }}}, { quoted: m,ephemeralExpiration: 86400});
@@ -1310,11 +1310,11 @@ caption: menunya+fiturnya,
 contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
-title: '© нσѕнιησ вσт ν2',
+title: '© Moene Bot V2',
 body: `Hai  ${ucapanWaktu} kak ${pushname}` ,
 thumbnailUrl:
  await pickRandom(hoshino),
-sourceUrl: 'https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS',
+sourceUrl: 'https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw',
 mediaType: 1,
 renderLargerThumbnail: true 
 }}}, { quoted: m,ephemeralExpiration: 86400});  
@@ -1896,7 +1896,7 @@ let g = await fetch(`https://raw.githubusercontent.com/inirey/RESTAPI/master/dat
 let f = await g.json()
 let a = f[Math.floor(Math.random() * f.length)]
 //let buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️ ɴᴇxᴛ ᴘʜᴏᴛᴏ`},type:1}]                            
-ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Rangel°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: 'https://telegra.ph/file/33d58a3a7b931d3902642.jpg',sourceUrl: `https://wa.me/${nomerOwner}`
+ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Moene°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: 'https://telegra.ph/file/33d58a3a7b931d3902642.jpg',sourceUrl: `https://wa.me/${nomerOwner}`
 }}, image: {url: a}, caption: `${mess.success}` ,footer: `Hasil pencarian dari ${command}`}, { quoted: m })
 .catch((err) => setReply('Server sedang error coba lagi besok!'))
 db.data.users[sender].limit -= 1
@@ -1909,7 +1909,7 @@ if (isGroup) return setReply('Khsus Private Chat Bot')
 if (!q) return setReply("stick apa\nConto Miku")
 let agg = await fetchJson(`https://api.lolhuman.xyz/api/telestick?apikey=${api.Lol}&url=${q}`)
 for (var ki = 0; ki < agg.result.sticker.length; ki++) {
-await ehz.sendImageAsSticker(m.sender, agg.result.sticker[ki], m, { packname: "Rangel°᭄ᴮᵒᵗ", author: "By єнαηz" })
+await ehz.sendImageAsSticker(m.sender, agg.result.sticker[ki], m, { packname: "Moene°᭄ᴮᵒᵗ", author: "By єнαηz" })
 } }
  break
  case 'sc': case 'script':{
@@ -1921,8 +1921,8 @@ await ehz.sendImageAsSticker(m.sender, agg.result.sticker[ki], m, { packname: "R
       noteMessage: {
       extendedTextMessage: {
       text: `
-      SCRIPT : https://www.youtube.com/@ehanzdhoanx552
-      © Hoshino Bot V2
+      MASUK SINI : https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw
+      © Moene Bot V2
 `,
       contextInfo: {
       externalAdReply: {
@@ -2869,11 +2869,11 @@ let anu = `╭─❒ 「  𝘕𝘚𝘍𝘞 」
 `
 await sleep(1000)
 ehz.sendMessage(from, { contextInfo: { externalAdReply: { showAdAttribution: true,
-title: `Rangel°᭄ᴮᵒᵗ`,
+title: `Moene°᭄ᴮᵒᵗ`,
 body:`Bot aktif ${runtime(process.uptime())}`,
 previewType:"PHOTO", 
 thumbnail: fs.readFileSync('./media/reply.jpg'),
-sourceUrl:`https://chat.whatsapp.com/Fguw4KxsP6qCBm9RfZvHOS`
+sourceUrl:`https://chat.whatsapp.com/HFnIfR2Bjuj244qghuMfFw`
 }}, image: fs.readFileSync('./media/thumb.jpeg'), caption: anu}, { quoted: m })
 }
 break
@@ -3244,7 +3244,7 @@ if (!isPremium && global.db.data.users[sender].limit < 1) return onlyLimit()
 setReply(mess.wait)
 let ini_txt = args.join(" ")
 var buffer = `https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&script=fluffy-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=${ini_txt}`
-ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Rangel°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl:"https://telegra.ph/file/33d58a3a7b931d3902642.jpg",sourceUrl: `https://wa.me/${nomerOwner}`
+ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Moene°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl:"https://telegra.ph/file/33d58a3a7b931d3902642.jpg",sourceUrl: `https://wa.me/${nomerOwner}`
 }}, image: {url:buffer}, caption: `${mess.success}`}, { quoted: m})
 .catch((err) => setReply('Server sedang error coba lagi besok!'))
 db.data.users[sender].limit -= 1
@@ -3258,7 +3258,7 @@ if (!isPremium && global.db.data.users[sender].limit < 1) return onlyLimit()
 setReply(mess.wait)
 let ini_txt = args.join(" ")
 var buffer = `https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text=${ini_txt}`
-ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Rangel°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: 'https://telegra.ph/file/33d58a3a7b931d3902642.jpg',sourceUrl: `https://wa.me/${nomerOwner}`
+ehz.sendMessage(from, { contextInfo: {externalAdReply: {showAdAttribution: true, title: `Moene°᭄ᴮᵒᵗ`, mediaType: 3,  renderLargerThumbnail : true,thumbnailUrl: 'https://telegra.ph/file/33d58a3a7b931d3902642.jpg',sourceUrl: `https://wa.me/${nomerOwner}`
 }}, image: {url:buffer}, caption: `${mess.success}`}, { quoted: m})
 .catch((err) => setReply('Server sedang error coba lagi besok!'))
 db.data.users[sender].limit -= 1

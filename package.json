@@ -1,11 +1,11 @@
-{"name":"RangelBot",
+{"name":"monennn",
 "version":"7.5.0",
-"description":"WhatsApp Using Lib Baileys Multi Device",
+"description":"Manalala",
 "main":"index.js",
 "type":"commonjs",
 "scripts":{"start":"node index.js"},
-"author":"EhanzDhoanx.",
-"license":"MIT",
+"author":"monenne.",
+"license":"ISC",
 "dependencies":{
 
 "@adiwajshing/keyed-db":"^0.2.4",
